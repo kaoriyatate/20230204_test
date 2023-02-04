@@ -1,0 +1,275 @@
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: left;
+}
+
+
+
+.pick_up_img {
+  width: 50%;
+  margin-left: 60%;
+
+}
+.title {
+  color:white;
+  font-family: 'IBM Plex Sans JP', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Shippori Mincho', serif;
+  font-size: 40px;
+  margin-left: 50px;
+
+}
+
+.navi {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color:white;
+  margin-left: 100px;
+  margin-top: 10px;
+
+}
+
+.navi_item {
+  justify-content: center;
+  font-family: 'IBM Plex Sans JP', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Shippori Mincho', serif;
+  margin-right: 20px;
+  
+
+}
+
+.main_content {
+  background-color: black;
+  width: 100%;
+  overflow: hidden;
+  
+}
+
+.main_content_item {
+  width: 100%;
+  margin-top: -700px;
+
+  
+  
+  
+}
+
+.main_content_item_img {
+  width: 100%;
+
+}
+  
+.pick_up {
+  color: white;
+  font-family: 'IBM Plex Sans JP', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Shippori Mincho', serif;
+  font-size: 60px;
+  margin-top: -200px;
+  margin-left: 100px;
+}
+
+
+.pick_up_item {
+  font-family: 'IBM Plex Sans JP', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Shippori Mincho', serif;
+  color: white;
+  margin-left: 150px;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  font-size: 22px;
+  
+}
+
+.main_category {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+    
+}
+.main_category_item_left {
+  width: 33%;
+  
+}
+
+.main_category_item_center {
+  width: 33%;
+}
+
+.main_category_item_right {
+  width: 33%;
+}
+
+
+.category_title {
+  color: white;
+  font-family: 'IBM Plex Sans JP', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 26px;
+    position: relative;
+    top: -120px;
+    left: 20px;
+    
+
+} 
+
+.category_text {
+  color: white;
+    font-family: 'IBM Plex Sans JP', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Shippori Mincho', serif;
+    font-size: small;
+    position: relative;
+    top: -100px;
+    left: 10px;
+  }
+
+  .photo {
+    background: linear-gradient(black,white);
+    width: 100%;
+  }
+
+  .photo_title {
+    color: white;
+    font-size: 30px;
+    margin-left: 150px;
+    font-family: 'IBM Plex Sans JP', sans-serif;
+      font-family: 'Indie Flower', cursive;
+      font-family: 'Shippori Mincho', serif;
+    
+  }
+
+  .photo_item {
+    margin-top: 30px;
+  
+
+  }
+
+  .photo_img {
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  .photo_img_item_l {
+    margin-right: 50px;
+  }
+
+  .photo_img_item_r {
+    margin-left: 50px;
+  }
+
+  .photo_img_bottom {
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo_img_bottom_item_l {
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+  }
+
+  .photo_img_bottom_item_r {
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+  }
+  .about {
+    background-color: black;
+    width: 100%;
+    height: 700px;
+  }
+
+  .about_img {
+    margin-left: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .about_text_title_item {
+    color: white;
+    font-family: 'IBM Plex Sans JP', sans-serif;
+      font-family: 'Indie Flower', cursive;
+      font-family: 'Shippori Mincho', serif;
+      margin-left: 600px;
+      margin-top: -550px;
+
+
+  }
+
+  .about_text_title {
+    color: white;
+    font-family: 'IBM Plex Sans JP', sans-serif;
+      font-family: 'Indie Flower', cursive;
+      font-family: 'Shippori Mincho', serif;
+      font-size: 26px;
+      margin-left: 600px;
+      margin-top: 20px;
+      line-height: 50px;
+  }
+
+  .about_taxt_detail {
+    color: white;
+    font-family: 'IBM Plex Sans JP', sans-serif;
+      font-family: 'Indie Flower', cursive;
+      font-family: 'Shippori Mincho', serif;
+      margin-left: 600px;
+      margin-top: 40px;
+
+  }
+
+  .about_taxt_detail_item {
+    color: white;
+    font-family: 'IBM Plex Sans JP', sans-serif;
+      font-family: 'Indie Flower', cursive;
+      font-family: 'Shippori Mincho', serif;
+      margin-left: 600px;
+      margin-top: 20px;
+  }
+
+  .about_link {
+    margin-left: 600px;
+    margin-top: 50px;
+  }
+
+  .about_button {
+    color: white;
+    border: solid thin white;
+    padding: 10px 30px;
+
+  }
+
+  .footer {
+    background-color: black;
+    width: 100%;
+    
+  }
+
+  .footer_item {
+    color: white;
+    margin-left: 500px;
+    
+  }
+
+  @media screen and (max-width: 480px) {
+    .pick_up {
+      text-align: center;
+      padding-top: 300px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .category_title {
+      font-size: 20px;
+    }
+    .category_text {
+      display: none;
+    }
+  }
+
